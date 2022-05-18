@@ -19,7 +19,10 @@
   },
   "homepage": "https://github.com/tminichetti/hello_world_pages#readme",
   "dependencies": {
-    "eslint": "^8.15.0",
     "jest": "^28.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.15.0",
+    "eslint-plugin-react": "^7.29.4"
   }
 }
