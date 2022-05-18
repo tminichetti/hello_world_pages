@@ -18,8 +18,7 @@ jobs:
     - run: npm run build --if-present
     - run: npm test
     - run: npm run lint
-    - name: Deploy
       uses: peaceiris/actions-gh-pages@v3
-        with:
+      with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: build
